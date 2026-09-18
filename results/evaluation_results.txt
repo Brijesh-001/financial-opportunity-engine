@@ -1,0 +1,78 @@
+Parsed tenure: (24, 24)
+
+Q001: I have ₹2 lakh, want medium risk and around 2 years, and prefer a return above 9%.
+Parsed tenure: (24, 24)
+Relevant IDs: ['OPP002', 'OPP020', 'OPP025', 'OPP029']
+Retrieved IDs: ['OPP002', 'OPP020', 'OPP025', 'OPP011', 'OPP029']
+Precision@5: 0.800
+Recall@5:    1.000
+Hit Rate@5:  1
+Parsed tenure: (12, 12)
+
+Q002: I only need to park ₹50,000 for about 1 year and I want low risk.
+Parsed tenure: (12, 12)
+Relevant IDs: ['OPP012', 'OPP015', 'OPP026', 'OPP030']
+Retrieved IDs: ['OPP026', 'OPP003', 'OPP017', 'OPP012', 'OPP015']
+Precision@5: 0.600
+Recall@5:    0.750
+Hit Rate@5:  1
+Parsed tenure: (36, 60)
+
+Q003: Budget is ₹1 lakh, high risk is acceptable, and I can stay invested for 3 to 5 years.
+Parsed tenure: (36, 60)
+Relevant IDs: ['OPP004', 'OPP013', 'OPP022', 'OPP027']
+Retrieved IDs: ['OPP022', 'OPP004', 'OPP027', 'OPP019', 'OPP005']
+Precision@5: 0.600
+Recall@5:    0.750
+Hit Rate@5:  1
+Parsed tenure: (18, 18)
+
+Q004: I have ₹80,000 and want moderate risk for roughly 18 months.
+Parsed tenure: (18, 18)
+Relevant IDs: ['OPP001', 'OPP003', 'OPP015', 'OPP023']
+Retrieved IDs: ['OPP023', 'OPP003', 'OPP010', 'OPP011', 'OPP001']
+Precision@5: 0.600
+Recall@5:    0.750
+Hit Rate@5:  1
+Parsed tenure: (6, 12)
+
+Q005: Looking for something around 6 to 12 months, under ₹1 lakh, with a return close to 10%.
+Parsed tenure: (6, 12)
+Relevant IDs: ['OPP010', 'OPP030']
+Retrieved IDs: ['OPP010', 'OPP021', 'OPP003', 'OPP012', 'OPP017']
+Precision@5: 0.200
+Recall@5:    0.500
+Hit Rate@5:  1
+Parsed tenure: (36, None)
+
+Q006: I can invest ₹3 lakh, accept high risk and want at least 3 years.
+Parsed tenure: (36, None)
+Relevant IDs: ['OPP004', 'OPP009', 'OPP019', 'OPP022']
+Retrieved IDs: ['OPP019', 'OPP022', 'OPP004', 'OPP009', 'OPP013']
+Precision@5: 0.800
+Recall@5:    1.000
+Hit Rate@5:  1
+Parsed tenure: (24, 36)
+
+Q007: I have ₹2.5 lakh and prefer moderate risk for 2 to 3 years.
+Parsed tenure: (24, 36)
+Relevant IDs: ['OPP008', 'OPP020', 'OPP028', 'OPP029']
+Retrieved IDs: ['OPP002', 'OPP011', 'OPP020', 'OPP025', 'OPP029']
+Precision@5: 0.400
+Recall@5:    0.500
+Hit Rate@5:  1
+Parsed tenure: (3, 6)
+
+Q008: I need a conservative option for 3 to 6 months with only ₹10,000.
+Parsed tenure: (3, 6)
+Relevant IDs: ['OPP017']
+Retrieved IDs: ['OPP017', 'OPP005', 'OPP007', 'OPP012', 'OPP026']
+Precision@5: 0.200
+Recall@5:    1.000
+Hit Rate@5:  1
+
+===== EVALUATION SUMMARY =====
+Queries evaluated: 8
+Mean Precision@5: 0.525
+Mean Recall@5:    0.781
+Hit Rate@5:       1.000
